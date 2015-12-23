@@ -1,0 +1,12 @@
+<ion-view view-title="Search">
+    <ion-content ng-controller="SearchCtrl">
+        <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" data-ng-model="text" placeholder="Search">
+        </label>
+        <button class="button button-balanced" ng-click="insert();">Insert</button>
+        <button class="button button-balanced" ng-click="select();">Select</button>
+        <button class="button button-balanced" ng-click="delete();">Delete</button>
+        <h1>{{data}}</h1>
+    </ion-content>
+</ion-view>

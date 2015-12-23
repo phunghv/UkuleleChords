@@ -1,10 +1,15 @@
 /* Empty. Add your own CSS if you like */
 /* General
 ==================================*/
-h1 {
+.bar .bar-header h1 {
     color: #fff;
-    /*text-shadow: 0 1px 0px #000;*/
-    font-size: 42px;
+    /*text-shadow: 0 1px 0px #000; font-size: 42px;*/
+    
+}
+/* Hide previous title
+===================================*/
+.bar .buttons .back-text .previous-title{
+    display: none;
 }
 
 
